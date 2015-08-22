@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>purple-facebook</id>
+    <title>Purple Facebook</title>
+    <version>0.0.0.001400</version>
+    <authors>James Geboski</authors>
+    <owners>Michael Ray</owners>
+    <summary>Purple Facebook implements the Facebook Messenger protocol into pidgin, finch, and libpurple.</summary>
+    <description>Purple Facebook implements the Facebook Messenger protocol into pidgin, finch, and libpurple. While the primary implementation is for purple3, this plugin is back-ported for purple2.
+    
+      The purple-facebook plugin is a replacement for the builtin Facebook XMPP plugin. Facebook is in the process of shutting down their XMPP service, which will inevitably break existing support.
+
+      As part of Google Summer of Code 2015, jgeboski is working on a plugin for libpurple to support a the newer Facebook Messenger protocol. The plugin is implemented for the development version of libpurple, purple3, which has yet to be released. The purple-facebook project simply back-ports the purple3 plugin to purple2, which is the released version of libpurple.
+
+      It should be noted that this plugin is still a work in progress, and there are many things which still need to be completed. Overall, however, the plugin is largely functional and can be used as a replacement for Facebook support within Pidgin and other clients which use libpurple. See the TODO for more information on the progress of the project.
+      
+      https://github.com/jgeboski/purple-facebook/wiki
+      
+      **Notes from the Chocolatey package owner(s):
+      
+        -The purple-facebook project adds support for the Facebook Messenger protocol in pidgin, finch, and libpurple, but this Chocolatey package is for adding Facebook Messenger support for pidgin, specifically.
+        
+        -The current (in development) releases of purple-facebook are not semantically versioned ( http://semver.org/ ) and are not otherwise sequentially ordered (on GitHub), so this Chocolatey package will be versioned as 0.0.0.{BUILD_NUMBER}{2_DIGIT_SUFFIX} (replacing {BUILD_NUMBER} with the build number (provided from the automated builds) in 4-digit format and replacing {2_DIGIT_SUFFIX} with the a 2 digit value that will be incremented for each Chocolatey package update for the same BUILD_NUMBER).  For example, the first version of this Chocolatey package is 0.0.0.001400 since this is automated build #14 ("0014") and this is the first version of the Chocolatey package for that build number ("00").
+    </description>
+    <releaseNotes>https://github.com/jgeboski/purple-facebook/blob/master/ChangeLog</releaseNotes>
+    <projectUrl>https://github.com/jgeboski/purple-facebook/</projectUrl>
+    <tags>purple facebook libpurple pidgin chat im</tags>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <copyright>Free Software Foundation</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="pidgin" />
+    </dependencies>
+  </metadata>
+</package>
