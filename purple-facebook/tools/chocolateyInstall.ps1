@@ -1,6 +1,6 @@
 ﻿$package_name = 'purple-facebook'
-$build_number = '14'
-$release_version = '5727ffb502c7'
+$build_number = '22'
+$release_version = '6a0a79182ebc'
 $libjson_url="https://github.com/jgeboski/purple-facebook/releases/download/downloads/libjson-glib-1.0.dll"
 $libfb_url="https://ci.voidium.net/job/purple-facebook/$build_number/artifact/source/win32-install-dir/plugins/libfacebook.dll"
 
