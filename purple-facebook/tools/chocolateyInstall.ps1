@@ -38,7 +38,7 @@ Get-ChocolateyWebFile -packageName $package_name -fileFullPath $libjson_fulltemp
 
 # Get the DLL filename from the URL, get full temp/destination paths, then download (libfacebook)
 $libfb_filename = $libfb_url -split '/' | Select-Object -Last 1
-$libfb_fulltemppath = Join-Path $app_temp $libfb_filename
+$libfb_fulltemppath = Join-Path $app_temp "build$build_number-$libfb_filename"
 $libfb_fulldestpath = Join-Path (Join-Path $pidgin_path $pidgin_plugin_subdir) $libfb_filename
 Get-ChocolateyWebFile -packageName $package_name -fileFullPath $libfb_fulltemppath -url $libfb_url
 
