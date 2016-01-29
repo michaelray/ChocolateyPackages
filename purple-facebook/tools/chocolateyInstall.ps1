@@ -44,5 +44,5 @@ $libfb_fulldestpath = Join-Path (Join-Path $pidgin_path $pidgin_plugin_subdir) $
 Get-ChocolateyWebFile -packageName $package_name -fileFullPath $libfb_fulltemppath -url $libfb_url
 
 # Copy libjson-glib & libfacebook DLLs to the appropriate location
-Copy-Item -Path $libjson_fulltemppath -Destination $libjson_fulldestpath
-Copy-Item -Path $libfb_fulltemppath -Destination $libfb_fulldestpath
+Copy-Item -Path $libjson_fulltemppath -Destination $libjson_fulldestpath -Force
+Copy-Item -Path $libfb_fulltemppath -Destination $libfb_fulldestpath -Force
