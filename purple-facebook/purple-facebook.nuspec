@@ -3,7 +3,7 @@
   <metadata>
     <id>purple-facebook</id>
     <title>Purple Facebook</title>
-    <version>0.0.0.010600</version>
+    <version>0.0.0.010700</version>
     <authors>James Geboski</authors>
     <owners>Michael Ray</owners>
     <summary>Purple Facebook implements the Facebook Messenger protocol into pidgin, finch, and libpurple.</summary>

@@ -1,6 +1,6 @@
 ﻿$package_name = 'purple-facebook'
-$build_number = '106'
-$release_string = "20160126~e30dc45~92885e0456ed~$build_number"
+$build_number = '107'
+$release_string = "20160203~04f1edd~92885e0456ed~$build_number"
 $libjson_url="https://github.com/jgeboski/purple-facebook/releases/download/downloads/libjson-glib-1.0.dll"
 $libfb_url="https://github.com/michaelray/purple-facebook-bin/raw/master/libfacebook.dll/$release_string/libfacebook.dll"
 
