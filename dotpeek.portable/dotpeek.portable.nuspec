@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dotpeek.portable</id>
+    <title>JetBrains dotPeek (Portable)</title>
+    <version>10.0.2.0</version>
+    <authors>JetBrains</authors>
+    <owners>Michael Ray</owners>
+    <summary>Free .NET Decompiler and Assembly Browser.</summary>
+    <description>Free .NET Decompiler and Assembly Browser.
+    
+      Decompile .NET assemblies to C# or IL
+      dotPeek can decompile any .NET assemblies into equivalent C# code and optionally show the underlying IL code.
+    
+      Navigate decompiled code in different ways
+      As dotPeek is based on ReSharper's powerful code insight architecture, it lets you navigate decompiled assemblies in a contextual or context-insensitive ways, get a quick summary what's inside each decompiled file, set bookmarks and explore inheritance chains.
+    
+      Make sense of assemblies
+      dotPeek provides a way to quickly grasp the structure of any given assembly, as well as ways to organize assemblies into discrete lists, which helps only focus on assemblies that you're interested for your current assignment.
+    
+      See more at https://www.jetbrains.com/decompiler/features/
+    </description>
+    <releaseNotes>https://www.jetbrains.com/decompiler/help/Whats_New.html</releaseNotes>
+    <projectUrl>https://www.jetbrains.com/decompiler/</projectUrl>
+    <tags>.net-decompiler .net-assembly-browser .net-dev-tool</tags>
+    <licenseUrl>https://www.jetbrains.com/decompiler/download/license.html</licenseUrl>
+    <copyright>JetBrains s.r.o.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <!-- Chocolatey 0.9.9 required in order to use the Install-ChocolateyShortcut helper function -->
+      <dependency id="chocolatey" version="0.9.9" />
+    </dependencies>
+  </metadata>
+</package>
