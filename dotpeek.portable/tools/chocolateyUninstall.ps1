@@ -1,9 +1,8 @@
 ﻿$packageName = 'dotpeek.portable'
 $version = '10.0.2'
-$toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$fileName = "dotPeek_${version}.exe"
-$destPath = Join-Path $toolsDir $fileName
 
+$toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$destPath = Join-Path $toolsDir "dotPeek.exe"
 Remove-Item $destPath -Force
 
 # Remove start menu link
