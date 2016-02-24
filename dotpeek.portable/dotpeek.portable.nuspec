@@ -20,7 +20,7 @@
     
       See more at https://www.jetbrains.com/decompiler/features/
     </description>
-    <iconUrl>https://cdn.rawgit.com/michaelray/ChocolateyPackages/2725038b26f91fc556057b88ac9989efff3d0227/dotpeek.portable/tools/dotPeek.10.0.2.0.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/michaelray/ChocolateyPackages/7207c6a1805d5e1dfd5663c22657c68e0beff537/dotpeek.portable/tools/dotPeek.png</iconUrl>
     <releaseNotes>https://www.jetbrains.com/decompiler/help/Whats_New.html</releaseNotes>
     <projectUrl>https://www.jetbrains.com/decompiler/</projectUrl>
     <tags>.net-decompiler .net-assembly-browser .net-dev-tool</tags>
