@@ -2,7 +2,11 @@
 $build_number = '110'
 $release_string = "20160409~2a24dff~66ee77378d82~$build_number"
 $libjson_url="https://github.com/dequis/purple-facebook/releases/download/downloads/libjson-glib-1.0.dll"
+$libjson_checksumType="sha256"
+$libjson_checksum="F6F602D99933A00BFE040330095744FEE788884318F9583149E07F85637EB699"
 $libfb_url="https://cdn.rawgit.com/michaelray/purple-facebook-bin/master/libfacebook.dll/$release_string/libfacebook.dll"
+$libfb_checksumType="sha256"
+$libfb_checksum="ACE7DD3D16D8424B2AF0FFBEB7FFB86035578C2613E714A37FFEAB6098EDFC40"
 
 # Find the Pidgin install directory so that the plugin DLLs can be placed into the appropriate location
 $pidgin_subdir = 'Pidgin'
