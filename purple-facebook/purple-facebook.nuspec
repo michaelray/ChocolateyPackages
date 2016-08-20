@@ -25,10 +25,14 @@
     </description>
     <releaseNotes>https://github.com/dequis/purple-facebook/blob/master/ChangeLog</releaseNotes>
     <projectUrl>https://github.com/dequis/purple-facebook/</projectUrl>
+    <docsUrl>https://github.com/dequis/purple-facebook/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/dequis/purple-facebook/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/dequis/purple-facebook</projectSourceUrl>
     <tags>purple facebook libpurple pidgin chat im</tags>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <copyright>Free Software Foundation</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/michaelray/ChocolateyPackages/tree/master/purple-facebook</packageSourceUrl>
     <dependencies>
       <dependency id="pidgin" />
     </dependencies>
