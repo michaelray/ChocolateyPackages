@@ -1,7 +1,11 @@
 ﻿$packageName = 'dotpeek.portable'
 $version = '10.0.2'
 $url = "https://download.jetbrains.com/resharper/dotPeek32_${version}.exe"
+$checksumType="sha256"
+$checksum="4ACC074AEDA6297A9A6F09F943DA775E991CBB33F6C23CA960AFB3C7E7A2BCCE"
 $url64 = "https://download.jetbrains.com/resharper/dotPeek64_${version}.exe"
+$checksum64Type="sha256"
+$checksum64="0D6BC989959C4D349C223B9835B75DB2F89CB397DDB9DAEEEC3BF0EBA78A8D59"
 
 # Create temp directory if it doesn't exist
 $appTemp = [IO.Path]::Combine($ENV:Temp, $packageName)
