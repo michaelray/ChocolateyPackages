@@ -39,13 +39,13 @@ if (!(Test-Path $app_temp))
 $libjson_filename = $libjson_url -split '/' | Select-Object -Last 1
 $libjson_fulltemppath = Join-Path $app_temp $libjson_filename
 $libjson_fulldestpath = Join-Path $pidgin_path $libjson_filename
-Get-ChocolateyWebFile -packageName $package_name -fileFullPath $libjson_fulltemppath -url $libjson_url
+Get-ChocolateyWebFile -PackageName $package_name -FileFullPath $libjson_fulltemppath -Url $libjson_url -ChecksumType $libjson_checksumType -Checksum $libjson_checksum
 
 # Get the DLL filename from the URL, get full temp/destination paths, then download (libfacebook)
 $libfb_filename = $libfb_url -split '/' | Select-Object -Last 1
 $libfb_fulltemppath = Join-Path $app_temp "build$build_number-$libfb_filename"
 $libfb_fulldestpath = Join-Path (Join-Path $pidgin_path $pidgin_plugin_subdir) $libfb_filename
-Get-ChocolateyWebFile -packageName $package_name -fileFullPath $libfb_fulltemppath -url $libfb_url
+Get-ChocolateyWebFile -PackageName $package_name -FileFullPath $libfb_fulltemppath -Url $libfb_url -ChecksumType $libfb_checksumType -Checksum $libfb_checksum
 
 # Copy libjson-glib & libfacebook DLLs to the appropriate location
 Copy-Item -Path $libjson_fulltemppath -Destination $libjson_fulldestpath -Force
