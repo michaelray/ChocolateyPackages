@@ -16,7 +16,7 @@ if (!(Test-Path $appTemp))
 $appTempFullPath = [IO.Path]::Combine($appTemp, "dotPeek_${version}.exe")
 
 # Download package file executable to temp directory
-Get-ChocolateyWebFile $packageName $appTempFullPath $url $url64
+Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $appTempFullPath -Url $url -ChecksumType $checksumType -Checksum $checksum -Url64 $url64 -ChecksumType64 $checksum64Type -Checksum64 $checksum64
 
 # Copy portable app exe to the appropriate location
 $toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
