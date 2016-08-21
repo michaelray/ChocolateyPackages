@@ -3,7 +3,7 @@
   <metadata>
     <id>dotpeek.portable</id>
     <title>JetBrains dotPeek (Portable)</title>
-    <version>10.0.2.0</version>
+    <version>10.0.2.1</version>
     <authors>JetBrains</authors>
     <owners>Michael Ray</owners>
     <summary>Free .NET Decompiler and Assembly Browser.</summary>
