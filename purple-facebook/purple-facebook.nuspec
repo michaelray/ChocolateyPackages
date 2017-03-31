@@ -3,7 +3,7 @@
   <metadata>
     <id>purple-facebook</id>
     <title>Purple Facebook</title>
-    <version>0.0.0.011700</version>
+    <version>0.9.3.126</version>
     <authors>James Geboski</authors>
     <owners>Michael Ray</owners>
     <summary>Purple Facebook implements the Facebook Messenger protocol into pidgin, finch, and libpurple.</summary>
@@ -20,8 +20,6 @@
       **Notes from the Chocolatey package owner(s):
       
         -The purple-facebook project adds support for the Facebook Messenger protocol in pidgin, finch, and libpurple, but this Chocolatey package is for adding Facebook Messenger support for pidgin, specifically.
-        
-        -The current (in development) releases of purple-facebook are not semantically versioned ( http://semver.org/ ) and are not otherwise sequentially ordered (on GitHub), so this Chocolatey package will be versioned as 0.0.0.{BUILD_NUMBER}{2_DIGIT_SUFFIX} (replacing {BUILD_NUMBER} with the build number (provided from the automated builds) in 4-digit format and replacing {2_DIGIT_SUFFIX} with the a 2 digit value that will be incremented for each Chocolatey package update for the same BUILD_NUMBER).  For example, the first version of this Chocolatey package is 0.0.0.001400 since this is automated build #14 ("0014") and this is the first version of the Chocolatey package for that build number ("00").
     </description>
     <releaseNotes>https://github.com/dequis/purple-facebook/blob/master/ChangeLog</releaseNotes>
     <projectUrl>https://github.com/dequis/purple-facebook/</projectUrl>
