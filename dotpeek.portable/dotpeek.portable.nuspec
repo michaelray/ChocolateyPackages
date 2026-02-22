@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotpeek.portable</id>
-    <title>JetBrains dotPeek (Portable)</title>
-    <version>10.0.2.1</version>
+    <title>[Deprecated] JetBrains dotPeek (Portable)</title>
+    <version>10.0.2.2</version>
     <authors>JetBrains</authors>
     <owners>Michael Ray</owners>
     <summary>Free .NET Decompiler and Assembly Browser.</summary>
@@ -19,8 +19,9 @@
       dotPeek provides a way to quickly grasp the structure of any given assembly, as well as ways to organize assemblies into discrete lists, which helps only focus on assemblies that you're interested for your current assignment.
     
       See more at https://www.jetbrains.com/decompiler/features/
+
+      [Deprecated]: This package is for an obsolete version of dotPeek and has not been maintained for quite some time now.  Use the other dotPeek choco package instead.
     </description>
-    <iconUrl>https://cdn.rawgit.com/michaelray/ChocolateyPackages/7207c6a1805d5e1dfd5663c22657c68e0beff537/dotpeek.portable/tools/dotPeek.png</iconUrl>
     <releaseNotes>https://www.jetbrains.com/decompiler/help/Whats_New.html</releaseNotes>
     <projectUrl>https://www.jetbrains.com/decompiler/</projectUrl>
     <docsUrl>https://www.jetbrains.com/decompiler/documentation/documentation.html</docsUrl>
