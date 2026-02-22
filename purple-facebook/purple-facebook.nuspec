@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>purple-facebook</id>
-    <title>Purple Facebook</title>
-    <version>0.9.6.166</version>
+    <title>[Deprecated] Purple Facebook</title>
+    <version>0.9.6.167</version>
     <authors>James Geboski</authors>
     <owners>Michael Ray</owners>
     <summary>Purple Facebook implements the Facebook Messenger protocol into pidgin, finch, and libpurple.</summary>
@@ -19,7 +19,9 @@
       
       **Notes from the Chocolatey package owner(s):
       
-        -The purple-facebook project adds support for the Facebook Messenger protocol in pidgin, finch, and libpurple, but this Chocolatey package is for adding Facebook Messenger support for pidgin, specifically.
+      -The purple-facebook project adds support for the Facebook Messenger protocol in pidgin, finch, and libpurple, but this Chocolatey package is for adding Facebook Messenger support for pidgin, specifically.
+
+      [Deprecated]: This purple-facebook plugin is deprecated, as it is no longer maintained with the last version being released in early 2019.
     </description>
     <releaseNotes>https://github.com/dequis/purple-facebook/blob/master/ChangeLog</releaseNotes>
     <projectUrl>https://github.com/dequis/purple-facebook/</projectUrl>
